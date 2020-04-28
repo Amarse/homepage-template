@@ -1,0 +1,36 @@
+<div class="tour-wrap section-gap-lg bg-white bg-img-style" [ngStyle]="{'background-image': 'url(' + tourBgImage + ')'}" id="upcoming-tour-section">
+   <div class="container">
+      <app-common-title title="Upcoming Tours"></app-common-title>
+      <div class="tour-item-list">
+         <div class="row">
+            <ng-container *ngFor="let upcomingTour of UpcomingToursContent; let i = index">
+               <div class="col-12"> 
+                  <div class="tour-item p-cursor"  [ngClass] = "{'brdr-primary': i == 0 }" id="tour_{{i}}" (click)="changeTourBg(upcomingTour.bg_image, i)">
+                     <div class="row no-gutters">
+                        <div class="col-12 col-md-3 col-lg-2">
+                           <div class="meta-info text-center w-100 mb-0">
+                              {{upcomingTour.date}}
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-9 col-lg-10 d-md-flex px-5 py-3 justify-content-between align-items-center tour-item-content">
+                           <div class="country-info mb-3 mb-md-0">
+                              <h5 class="mb-0"><a href="javascript:void(0)">{{upcomingTour.country}}</a></h5>
+                           </div>
+                           <div class="location-info mb-3 mb-md-0">
+                              <h5 class="mb-0"><a href="javascript:void(0)">{{upcomingTour.location}}</a></h5>
+                           </div>
+                           <div class="wrap pr-3 mb-3 mb-md-0">
+                              <p class="mb-0"><a href="javascript:void(0)"><i class="fas fa-ticket-alt mr-2"></i>Tickets</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </ng-container>
+         </div>
+         <div class="text-right">
+            <button class="primary-btn button text-capitalize" tabindex="0">See All Dates</button>
+         </div>
+      </div>
+   </div>
+</div>

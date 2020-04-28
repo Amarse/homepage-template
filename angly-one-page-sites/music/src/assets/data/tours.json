@@ -1,0 +1,26 @@
+[
+	{
+		"date" : "24 May",
+		"country" : "Napa, CA, USA",
+		"location" : "BottleRock",
+		"bg_image" : "assets/images/h2sldr1.jpg"
+	},
+	{
+		"date" : "24 May",
+		"country" : "Napa, CA, USA",
+		"location" : "BottleRock",
+		"bg_image" : "assets/images/h2sldr2.jpg"
+	},
+	{
+		"date" : "24 May",
+		"country" : "Napa, CA, USA",
+		"location" : "BottleRock",
+		"bg_image" : "assets/images/h2sldr3.jpg"
+	},
+	{
+		"date" : "24 May",
+		"country" : "Napa, CA, USA",
+		"location" : "BottleRock",
+		"bg_image" : "assets/images/flag_bg.jpg"
+	}
+]

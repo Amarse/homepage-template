@@ -1,0 +1,17 @@
+<div class="price-plan-item text-center border-all rounded">
+	<div class="contract-category-sec border-hr-btm py-4">
+		<span>{{showPlan.heading}}</span>
+	</div>
+	<div class="price-token py-5">
+		<span class="price-money">{{showPlan.money}}</span>
+	</div>
+   <!-- price-token -->
+	<div class="plan-desc" *ngFor="let data of showPlan.content">
+		<p class="border-hr-top pt-2 pb-3 mb-0 text-white">{{data}}</p>
+	</div>
+   <!-- plan-desc -->
+	<div class="btn-wrap px-3 pt-2 mb-4">
+		<a href="javascript:void(0);" class="button dark-btn d-block">Get Ticket</a>
+	</div>
+</div>
+<!-- price-plan-item-wrap -->

@@ -1,0 +1,19 @@
+<div class="post-list">
+	<div class="post-list-item border-hr-btm mb-3" *ngFor="let values of postlist">
+		<div class="sec-title">
+			<h6 class="font-weight-bold mb-0"><a href="javascript:void(0);">{{values.title}}</a></h6>
+		</div><!--|-sec-title|-->
+		<div class="meta-info mb-2">
+			<span class="post-time mr-2">
+				<a href="javascript:void(0);"><i class="far fa-clock mr-2"></i>{{values.date}}</a>
+			</span>
+			<span class="post-comment ml-2">
+				<a href="javascript:void(0);"><i class="fas fa-comments mr-2"></i>{{values.comment}}</a>
+			</span>
+		</div><!--|-meta-info|-->
+	</div><!--|-post-list-item|-->
+	<div class="read-more mt-2">
+		<a href="javascript:void(0);" class="button secondary-btn">View More News</a>
+	</div><!--|-read-more|-->
+</div>
+<!-- post-list -->

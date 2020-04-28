@@ -1,0 +1,38 @@
+<form #f="ngForm" [formGroup]="form" (ngSubmit)="OnSubmit(f.value)" method="post">
+	<div class="form-group" >
+		<span>
+			<input type="text" class="form-control" name="name" placeholder="Name" formControlName="name" [ngClass]="{'is-invalid':form.get('name').touched && form.get('name').invalid}">
+			<div class="invalid-feedback">
+            <div> Name is required</div>
+         </div>
+		</span>
+	</div>
+	<!--|form-group|-->
+	<div class="form-group">
+		<span>
+			<input type="email" class="form-control" name="email" placeholder="Email Address" formControlName="email" [ngClass]="{'is-invalid':form.get('email').touched && form.get('email').invalid}">
+			<div *ngIf="form.get('email').touched && form.get('email').invalid"  class="invalid-feedback">
+            <div *ngIf="form.get('email').errors.required">Email Name is required</div>
+            <div *ngIf="form.get('email').errors.email">Email Address must be a valid</div>
+         </div>
+		</span>
+	</div>
+	<!--|form-group|-->
+	<div class="form-group">
+		<span>
+			<input type="tel" class="form-control" name="phone" placeholder="Phone" formControlName="phone">
+		</span>
+	</div>
+	<!--|form-group|-->
+	<div class="form-group">
+		<span>
+			<textarea placeholder="Message" class="form-control" name="comment" rows="3" formControlName="comment" [ngClass]="{'is-invalid':form.get('comment').touched && form.get('comment').invalid}"></textarea>
+			<div class="invalid-feedback">
+            <div> Message is required</div>
+         </div>
+		</span>
+	</div>
+	<div class="modal-footer justify-content-start border-0 p-0">
+		<input type="submit" value="Send Message" class="button mb-2" [disabled]="form.invalid">
+	</div>
+</form>

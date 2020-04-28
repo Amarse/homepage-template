@@ -1,0 +1,43 @@
+<!--|post grid item section start|-->
+<div class="post-item rounded-border primary-overlay post-translate">
+	<!--|overlay section start|-->
+	<div class="overlay-wrap"> 
+		<!--|post image section start|-->
+		<div class="thumb-wrap">
+			<div class="featured-thumb">
+				<a href="javascript:void(0);">
+					<img [src]="BlogDataValue.imagePath" alt="gridd2" height="246" width="370">
+				</a>
+			</div>
+		</div>
+		<!--|overlay content section start|-->
+		<div class="overlay-content">
+			<div class="read-more">
+				<a href="javascript:void(0);" class="read-more-link"></a>
+			</div>
+		</div>
+	</div>
+	<!--|post content section start|-->
+	<div class="post-content content-bdr content-boxshadow base-bg">
+		<div class="content pb-3">
+			<div class="sec-title mb-3">
+				<h5 class="font-weight-bold"><a class="dark-color" href="javascript:void(0);">{{BlogDataValue.title}}</a></h5>
+			</div>
+			<!--|sec-title|-->
+			<div class="sec-content">
+				<p class="gray-color">{{BlogDataValue.discription}}</p>
+			</div>
+			<!--|sec-content|-->
+		</div>
+		<div class="meta-info border-hr-top">
+			<span class="post-time mr-2">
+				<a href="javascript:void(0);"><i class="far fa-clock mr-2"></i>{{BlogDataValue.date}}</a>
+			</span>
+			<span class="post-comment ml-2">
+				<a href="javascript:void(0);"><i class="fas fa-comments mr-2"></i>{{BlogDataValue.comment}}</a>
+			</span>
+		</div>
+	</div>
+</div>
+
+

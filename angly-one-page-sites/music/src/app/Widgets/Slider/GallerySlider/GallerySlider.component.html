@@ -1,0 +1,19 @@
+<ngx-slick-carousel [config]="gallerySliderConfig">
+   <ng-container ngxSlickItem *ngFor="let content of gallerySliderContent">
+    	<div class="post-item" >
+         <div class="overlay-wrap">
+            <div class="thumb-wrap">
+               <a href="javascript:void(0);"><img src="{{content.image}}" alt="gallery" width="700" height="700"></a>
+            </div>
+            <div class="overlay-content d-flex align-items-center justify-content-center">
+               <h2 class="icon-wrap d-inline-block">                              
+                  <a data-fancybox href="{{content.video_link}}" class="text-white">
+                    <i class="fab fa-{{content.icon}}"></i>
+                  </a>
+               </h2>
+            </div>
+         </div>
+      </div>
+   </ng-container>
+</ngx-slick-carousel>
+

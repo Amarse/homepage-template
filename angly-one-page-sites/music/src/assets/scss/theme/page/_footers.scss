@@ -1,0 +1,59 @@
+/*---------------------------------------------------------------
+14.0 footer
+---------------------------------------------------------------*/
+//---------------| Footer-wrap |---------------//
+.footer-wrap{
+	.footer-bottom{
+		.widget{
+			h6,p ,h6 a,span ,span a{
+            font-size:0.95rem;
+            color: $gray-500;
+			}
+			.btn-wrap{
+				&:hover{
+					box-shadow:none;
+				}
+			}
+			.widget-latest-posts{
+				h6 a{
+					line-height: 1.5rem;
+				}
+				ul{
+					.widget-list-item{
+						border-bottom: 1px solid #3C3C51;
+						&:last-child{
+							margin-right:0;
+						}
+					}	
+				}
+			}
+			.widget-twitter{
+				h6 a ,span{
+					line-height: 0.9375rem;
+				}
+				.widget-list-item{
+					padding:1rem 0;
+					.sub-title{
+						span{
+							color:$white;
+						}
+					}
+					.followers-no{
+						color: $gray-500;
+					}
+				}
+			}
+		}
+	}
+   .footer-widget_text{
+      .logo-wrap{
+         padding-top:0px !important;
+         padding-bottom:0px !important;
+         margin-bottom:1rem;
+      }
+   }	
+
+}
+
+
+

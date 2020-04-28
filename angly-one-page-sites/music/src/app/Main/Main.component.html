@@ -1,0 +1,20 @@
+<div id="wrapper">
+   <app-main-header></app-main-header>
+   <app-banner></app-banner>
+   <div id="main" (scroll)="onScrollEvent($event)">
+      <div class="content">
+         <app-track></app-track>
+         <app-contact-us></app-contact-us>
+         <app-upcoming-tours></app-upcoming-tours>
+         <app-team></app-team>
+         <app-gallery></app-gallery>
+      	<app-news></app-news>
+      </div>
+   </div>
+   <app-footer></app-footer>
+</div>
+<!-- Return to Top -->
+ <div id="back-top">
+   <a href="javascript:" id="return-to-top"><span class="screen-reader-text"></span><i class="fas fa-arrow-up"></i></a>
+</div>
+

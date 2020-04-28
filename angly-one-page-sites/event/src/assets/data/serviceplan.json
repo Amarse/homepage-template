@@ -1,0 +1,37 @@
+ [
+	{
+		"heading":"Silver",
+		"usd":"usd",
+		"money":"$40",
+		"month":"per month",
+		"content" : [
+			"Entrance",
+			"Coffee Break",
+			"Certificate",
+			"Workshop"
+		]
+	},
+	{
+		"heading":"Gold",
+		"usd":"usd",
+		"money":"$50",
+		"month":"per month",
+		"content" : [
+			"Entrance",
+			"Coffee Break",
+			"Certificate",
+			"Workshop"
+		]
+	},{
+		"heading":"Platinum",
+		"usd":"usd",
+		"money":"$80",
+		"month":"per month",
+		"content" : [
+			"Entrance",
+			"Coffee Break",
+			"Certificate",
+			"Workshop"
+		]
+	}
+] 

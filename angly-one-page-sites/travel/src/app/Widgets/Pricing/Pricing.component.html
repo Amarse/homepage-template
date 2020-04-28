@@ -1,0 +1,42 @@
+<div id = "pricing-section" class="pricing-page-wrap secondary-bg bg-img-style pricing-image-fixed">
+   <div class="pricing-content-wrap section-gap-pricing">
+      <div class="sec-content-wrap">
+         <div class="sec-title text-center">
+            <h2 class="title text-white">Our Pricing packages</h2>
+         </div>
+      </div>
+      <div class="container">
+         <div class="pricing-row row">
+            <div class="col-12 col-md-10 col-lg-4 mx-auto mx-lg-0 mb-5 mb-lg-0" *ngFor="let content of pricingContent">
+               <div class="card text-center border pricing-item" [ngClass]="{'popular': content.status}">
+                  <div class="card-body text-center">
+                     <label class="ribbon top-right ribbon-primary">
+                        <span>{{content.ribbon}}</span>
+                     </label>
+                     <div class="price-title mb-5">
+                        <h3 class="mb-2 font-weight-bold">{{content.price_title}}</h3>
+                        <p><ng-container *ngFor="let place of content.places">{{place}} </ng-container></p>
+                     </div>
+                     <hr class="mb-5">
+                     <div class="price-wrap mb-5">
+                        <h4 class="font-weight-bold">
+                           <del class="font-weight-bold old-price">${{content.actual_price}}</del>/${{content.actual_price*(100-content.discount)/100}}
+                        </h4>
+                     </div>
+                     <div class="card-feature mb-4 text-left d-inline-block">                              
+                        <ul class="list-unstyled px-0">
+                           <li *ngFor="let data of  content.card_feature">
+                              <p><i class="fa mr-2 {{data.icon_class}} {{data.icon}}"></i>{{data.feature}}</p>
+                              <hr>
+                           </li>
+                        </ul>
+                     </div>
+                     <a href="javascript:void(0)" class="btn btn-outline-dark btn-sm">Buy Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+			 

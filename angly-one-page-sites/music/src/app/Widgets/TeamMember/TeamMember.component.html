@@ -1,0 +1,12 @@
+<div class="team-members-wrap pt-0 section-gap-lg">
+   <div class="container position-relative">
+      <app-common-title title="The Band"></app-common-title>
+      <div class="team-listing">
+         <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 mb-lg-0 mb-4 team-listing-content" *ngFor = "let teamMember of teamMemberContent">
+            	<app-team-member-grid [teamMembersContent]="teamMember"></app-team-member-grid>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

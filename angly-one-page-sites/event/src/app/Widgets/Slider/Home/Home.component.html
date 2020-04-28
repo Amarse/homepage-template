@@ -1,0 +1,69 @@
+<div id="section-1" class="page-slider-wrap page-slider-v3-wrap">
+	<div class="page-slider-v3">
+		<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+			<div  class="slider-item-wrap position-relative bg-img-style"[ngClass]="slidedata.class" ngxSlickItem *ngFor="let slidedata of homeslide">
+            <div class="page-slider-overlay">
+   				<div class="container">
+   					<div class="row">
+   						<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12 mx-auto">
+   							<div class="slider-content text-center pt-lg-5">
+   								<div class="sec-title pt-sm-5 mb-4">
+   									<h3 class="base-color mb-0">{{slidedata.title}}</h3>
+   								</div>
+   								<div class="d-inline-block mb-4">
+   									<h2 class="large-text base-color mb-0">{{slidedata.heading}}</h2>
+   								</div>
+                           <div class="sec-content d-none d-md-block mb-4">
+                              <p class="text-white mb-0">{{slidedata.description}}</p>
+                           </div>
+   								<div class="slider-links mb-3">
+   									<div class="btn-wrap">
+   										<a href="javascript:void(0);" class="button white-btn-bdr">Buy Ticket</a>
+   									</div>
+   								</div>
+   							</div>
+   						</div>
+   					</div>
+   				</div>
+            </div>
+            <div class="sec-title-overlay d-none d-lg-block" *ngIf="difference>0">
+               <div class="mb-3">
+                  <div class="number-wrap">
+                     <span class="number-count font-weight-bold text-white large-text">{{days}}</span>
+                  </div>
+                  <div class="text-wrap">
+                     <span class="text-title text-white font-weight-bold">Days</span>
+                  </div> 
+               </div> 
+               <div class="mb-3">  
+                  <div class="number-wrap">
+                     <span class="number-count font-weight-bold text-white large-text">{{hours}}</span>
+                  </div>
+                  <div class="text-wrap">
+                     <span class="text-title text-white font-weight-bold">Hours</span>
+                  </div>
+               </div>  
+               <div class="mb-3">  
+                  <div class="number-wrap">
+                     <span class="number-count font-weight-bold text-white large-text">{{minutes}}</span>
+                  </div>
+                  <div class="text-wrap">
+                     <span class="text-title text-white font-weight-bold">Minutes</span>
+                  </div> 
+               </div>  
+               <div class="mb-3"> 
+                  <div class="number-wrap">
+                     <span class="number-count font-weight-bold text-white large-text">{{seconds}}</span>
+                  </div>
+                  <div class="text-wrap">
+                     <span class="text-title text-white font-weight-bold">Seconds</span>
+                  </div>
+               </div>    
+            </div>     
+			</div>
+         <!-- slider-item-wrap -->
+		</ngx-slick-carousel>	
+	</div>
+   <!-- page-slider-v3 -->
+</div> 
+<!-- page-slider-wrap -->

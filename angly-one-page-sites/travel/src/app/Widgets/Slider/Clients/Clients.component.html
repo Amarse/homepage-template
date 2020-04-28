@@ -1,0 +1,16 @@
+<div  class="clients-wrap py-4 border-top">
+	<div class="container-fluid px-0">
+		<div class="clients-v1 wow fadeInLeft">
+			 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+				<!--|client-sec|-->
+				<div class="client-sec" ngxSlickItem *ngFor="let slide of clientsdata">
+					<div class="thumb-wrap d-flex justify-content-center" >
+						<div class="img-slide" >
+							<img [src]="slide.img" alt="clients5" height="{{slide.height}}" width="{{slide.width}}" >
+						</div>	
+					</div>
+				</div>
+			</ngx-slick-carousel>
+		</div>
+	</div>
+</div>

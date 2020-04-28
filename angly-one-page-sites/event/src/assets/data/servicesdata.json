@@ -1,0 +1,12 @@
+[
+	{
+		"image":"assets/images/service1.jpg",
+		"title":"Maece Euismod",
+		"discription":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+	},
+	{
+		"image":"assets/images/service2.jpg",
+		"title":"Quisque Fringilla",
+		"discription":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+	}
+] 

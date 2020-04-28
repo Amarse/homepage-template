@@ -1,0 +1,69 @@
+<header id="header-sec" class="header-v1 header-transparent">
+	<!--|header-v3 section start|-->
+	<div class="header-wrapper">
+		<!--|header top section start|-->
+		<div class="header-top pt-4">  
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center border-hr-btm pb-4">
+					<!--|header widget section start|-->
+					<app-header-contact-detail></app-header-contact-detail>
+					<!--|header widget section start|-->
+					<div class="header-widget-area d-flex">
+						<!--|header social-icons section start|-->
+						<app-social-icon [socialIcon]="socialIcons"></app-social-icon>
+						<div class="header-link-wrap">
+							<ul class="header-link list-inline mb-0">
+								<!--|cart utility section start|-->
+								<li class="cart-utility">
+									<a href="javascript:void(0);" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+								</li>
+								<!--|search utility section start|-->
+								<li class="search-utility">
+									<a href="javascript:void(0);" class="search-icon"><i class="fas fa-search"></i></a>
+									<div class="search-box">
+										<div class="container position-relative">
+											<form class="search-form" role="search" method="GET">
+												<div class="form-group">
+													<input class="search-input form-control bg-transparent rounded-0" placeholder="Search" type="text">
+												</div>
+											</form>
+											<span class="form-msg">Hit Enter To Search</span>
+											<div class="search-close-btn" >
+												<a href="javascript:void(0);">
+													<div class="close-wrap" id ="close-wrap" >
+														<span class="close-line close-line1"></span>
+														<span class="close-line close-line2"></span>
+													</div><!--|close-wrap|-->
+												</a>
+											</div><!--|search-close-btn|-->
+										</div>	
+									</div><!--|-search-box|-->	
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--|header bottom section start|-->
+		<div class="header-wrap" id ="header-wrap">
+			<div class="container px-0">
+				<nav class="navbar navbar-expand-lg navbar-dark theme-navbar py-2">
+               <div class="logo-wrap">
+						<app-logo [logo_class]="logoClass" [img]="image"></app-logo>
+               </div>   
+					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-header"
+						aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="navbar-collapse collapse justify-content-end" id="main-header">
+						<app-menu></app-menu>
+					</div>
+					<!-- navbar collapse header menu -->
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!--|sticky header section start|-->
+	<app-sticky-header></app-sticky-header>
+</header>

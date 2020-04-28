@@ -1,0 +1,18 @@
+[
+	{
+		"title" : "BottleRock-CA",
+		"bg_image" : "assets/images/h2sldr2.jpg"
+	},
+	{
+		"title" : "Visarno Arena-IT",
+		"bg_image" : "assets/images/h2sldr1.jpg"
+	},
+	{
+		"title" : "Forest Hills-NY",
+		"bg_image" : "assets/images/h2sldr3.jpg"
+	},
+	{
+		"title" : "Barclays-NY ",
+		"bg_image" : "assets/images/h2sldr1.jpg"
+	}
+]

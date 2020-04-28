@@ -1,0 +1,207 @@
+//--------------------| Meta Info |-----------------------//
+.meta-info{
+   span{
+      cursor:pointer;
+      a{
+         margin-right:5px;
+         font-size:0.8125rem;
+         line-height: 0.9375rem;
+         &:hover {
+            color:$secondary;
+         }
+      }
+      &:last-child a{
+         margin-right:0;
+      }
+   }
+}
+
+//------------|Event Tab V2|-----------//
+.news-tab-wrap {
+   .tab-list {
+      ul {
+         li {
+            a {
+               font-size:1.25rem;
+               line-height:1.875rem;
+               text-transform:uppercase;
+               border-radius: 0;
+               color: $white;
+               &.active{
+                  background-color:$primary;
+                  color: $white;
+               }
+            }
+         }
+      }
+   }
+}
+
+//------------------| Gallery-v2-sec |----------------------//
+.gallery-wrap{
+   .thumb-wrap{
+      img{
+         width:100%;
+      }
+   }
+   .slick-slider{
+      .slick-arrow {
+         top:44%;
+      }
+      .slick-prev {
+        left: 0%;
+        &:before{
+         font-size:40px;
+        }
+      }
+      .slick-next {
+        right:1.2%;
+         &:before{
+            font-size:40px;
+         }
+      }
+   }
+}
+//------------------------| Album Wrapy |--------------------------//
+
+.album-wrap{
+   background-image: url("../../assets/images/mike.jpg");
+   background-size: cover;
+   background-position: center center;
+   .thumb-wrap{
+      .featured-thumb{
+         img{
+            width:auto;
+         }
+      }
+   }
+   .post-item{
+      .sec-title a:hover{
+         color:$primary !important;
+      }
+   }
+   .player-img{
+      height: 375px;
+      background-color:#d6d7d9;
+      position: relative;
+   }
+   .track-item{
+      margin-bottom: 0;
+      .meta-info{
+         padding: 0;
+      }
+   }
+   .tracklist-wrap {
+      border-top:1px solid rgba(255,255,255,0.4);
+   }
+   .audio-play{
+      z-index:1;
+   }
+   .overlay-wrap{
+      .overlay-content{
+         opacity: 1;
+         visibility: visible;
+         transform: translateY(0rem);
+         background-color: rgba(255, 45, 85, 0.5);
+         .overlay-icon{
+            background:$primary;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50%;
+         }
+      }
+   }  
+}
+
+//------------------------| Gallery Page Tempelate overlay |--------------------------//
+.gallery-wrap{
+   .btn-wrap{
+      .secondary-btn{
+         box-shadow: 0 3px 9px 0 rgba(133,26,23,0.47);
+      }
+   }
+}
+.grid-sizer1{
+   width:356px;
+}
+.grid-sizer2{
+   width:229px;
+}
+.grid-sizer3{
+   width:483px;
+}
+.grid-sizer4{
+   width:448px;
+}
+.tour-wrap{
+   position:relative;
+   z-index:1;
+    &:after{
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      content:'';
+      z-index:-1;
+      background-color: rgba(255,255,255,0.5);
+   }
+   .tour-item{
+      box-shadow: 4px 3px 23px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 3rem;
+      .meta-info{
+         width: 100%;
+         height: 100%;
+         font-size: 2rem;
+         padding: 2.5rem 1.8rem;
+         margin-bottom: $headings-margin-bottom;
+         background-color:$primary;
+         color:$white !important;
+      }
+      .tour-item-content{
+         background-color: rgba(0,0,0,.3);
+      }
+   }
+}   
+.tour-item-list .read-more .read-more-btn{
+   font-size: 1.25rem;
+   padding: 1rem 1.5rem;
+}
+
+.team-wrap{
+   height: 430px;
+}
+.team-members-wrap{
+   margin-top: -18rem;
+}
+
+/*-----Call to action----------------*/
+.call-to-action-wrap{
+   .custom-select-icon{
+         &:after{
+            top: 26%;
+         }
+      }
+      .form-wrap{
+         .form-control{
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 0.1875rem;
+            background:transparent;
+         }
+         select.form-control:not([size]):not([multiple]) {
+            height: calc(2.25rem + 0.625rem);
+         }
+         input[type=submit]{
+            box-shadow:none;
+            border:0;
+            padding: 0.75rem 1.5rem;
+         }
+      }
+}
+
+/*-----------------spacer--------------------*/
+.call-to-action-wrap{
+   padding: 9.286rem 0 9.286rem;
+}

@@ -1,0 +1,33 @@
+ 
+[
+	{
+		"image":"assets/images/team1.jpg",
+		"name":"purus Nec",
+		"content":"Present ultrices quis",
+		"discription":"Proin nec risus semper, mollis neque tristique, tempor orci. Curabitur eget orci orci. Ut id eleifend odio. Curabitur ac purus in ligula",
+		"speciality":"Speciality:",
+		"business":"Singer",
+		"degrees":"Degrees: ",
+		"sjd":"S.J.D."
+	},
+	{
+		"image":"assets/images/team2.jpg",
+		"name":"Semper Sapien",
+		"content":"Present ultrices quis",
+		"discription":"Proin nec risus semper, mollis neque tristique, tempor orci. Curabitur eget orci orci. Ut id eleifend odio. Curabitur ac purus in ligula",
+		"speciality":"Speciality:",
+		"business":"Web Developer",
+		"degrees":"Degrees: ",
+		"sjd":"S.J.D."
+	},
+	{
+		"image":"assets/images/team3.jpg",
+		"name":"Tempus Eros",
+		"content":"Present ultrices quis",
+		"discription":"Proin nec risus semper, mollis neque tristique, tempor orci. Curabitur eget orci orci. Ut id eleifend odio. Curabitur ac purus in ligula",
+		"speciality":"Speciality:",
+		"business":"Android Developer",
+		"degrees":"Degrees: ",
+		"sjd":"S.J.D."
+	}
+] 

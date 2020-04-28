@@ -1,0 +1,32 @@
+<div id="section-3" class="services-wrap services-v4 section-gap-lg">
+	<!--|container start|-->
+	<div class="container">
+		<!--|post grid start|-->
+		<div class="row">
+			<div class="col-lg-4 col-md-11 col-sm-12">
+				<div class="post-desc mb-5 mb-xl-0">
+					<app-section-title title="Topics" sectionTitleClass="text-left"></app-section-title>
+               <!--|-title-wrap|-->
+					<div class="sec-content mb-5">
+						<p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is simply my text of the printing and Ipsum is simply simply dummy text of the printing and typesettin.</p>
+					</div>
+					<div class="btn-wrap">
+						<a href="javascript:void(0);" tabindex="0" class="button secondary-btn">View All</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-12 col-sm-12">
+				<div class="post-grid-wrap">
+					<!--|row start|-->
+					<div class="row">
+						<!--|col start|-->
+						<div class="col-lg-6 col-md-6 col-sm-12 mb-5 mb-md-0 service-grid-content" *ngFor="let  value of ServiceData">
+							<app-services-grid [ServicesGrid] ="value" ></app-services-grid>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</div><!--|container|-->
+</div>
+<!-- services-wrap -->

@@ -1,0 +1,17 @@
+<div id="blog-section" class="blog-grid-wrap blog-grid-v1 position-bg-img section-gap-blog">
+	<!--|container start|-->
+	<div class="container">
+		<!--|section title start|-->
+		<app-common-title [Title]="title" [Subtitle]="subtitle"></app-common-title>
+		<!--|post grid section start|-->
+		<div class="post-grid-wrap">
+			<!--|row start|-->
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-5 mb-lg-0" *ngFor="let value of blogData">
+					<app-blog-grid [BlogDataValue]="value"></app-blog-grid>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+			

@@ -1,0 +1,32 @@
+<!--|post-item sec start|-->
+<div class="post-item rounded-bdr-all primary-overlay mb-4 mb-lg-0">
+	<!--|overlay sec start|-->
+	<div class="overlay-wrap">
+		<div class="thumb-wrap">
+			<div class="featured-thumb">
+            <a href="javascript:void(0);" class="bg-img-style d-block" [ngStyle]="{'background-image': 'url(' + travelItineraries.imagePath + ')'}"></a>
+			</div>
+		</div>
+		<!--|overlay content start|-->
+		<div class="overlay-content d-flex justify-content-end align-items-end">
+			<div class="overlay-holder">
+				<div class="sec-title mb-3">
+					<h4><a href="javascript:void(0);" (click)="OpenItinerariesPopup()">{{travelItineraries.title}}</a></h4>
+				</div>
+				<div class="sec-content mb-3">
+					<p>{{travelItineraries.discription}}</p>
+				</div>
+            <div class="d-flex align-item-center justify-content-between">
+               <div class="overlay-price">
+                  <span class="font-md base-color">{{travelItineraries.price}}</span>
+               </div>
+   				<div class="read-more align-self-center">
+   					<a href="javascript:void(0);" class="read-more-btn" (click)="OpenItinerariesPopup()">Read More</a>
+   				</div>
+            </div>   
+			</div>
+		</div>
+	</div>
+</div>
+
+

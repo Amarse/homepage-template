@@ -1,0 +1,20 @@
+<div class="post-item">
+   <div class="overlay-wrap">
+      <div class="thumb-wrap">
+         <div class="featured-thumb">
+            <a href="javascript:void(0);"><img src="{{teamMembersContent.image}}" alt="woman" width="700" height="788"></a>
+         </div>
+      </div>
+      <div class="overlay-content d-flex justify-content-center align-items-center">
+         <div class="overlay-holder text-center">
+            <div class="sec-title">
+               <h5 class="mb-1">{{teamMembersContent.name}}</h5>
+            </div>
+            <div class="sec-title">
+               <p class="mb-1">{{teamMembersContent.designation}}</p>
+            </div>
+            <app-social-links [socialIconsData]="teamMembersContent.socialLinks"></app-social-links>
+         </div>
+      </div>
+   </div>
+</div>

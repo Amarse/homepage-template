@@ -1,0 +1,93 @@
+/*---------------------------------------------------------------
+18.0 Footer
+----------------------------------------------------------------- */
+/*-----------|footer styling start|------------*/
+.footer-wrap{
+    .footer-top,.footer-bottom{
+      background-color: $dark;
+   }
+	.social-icons {
+		.social-icon {
+			li{
+				a{
+					i{
+						color:$light;
+					}
+				}
+			}
+		}
+	}	
+	.meta-info {
+		span {
+			a{
+				color: $white;
+				&:after{
+					content:",";
+					display:inline-block;
+				}
+			}
+			&:hover{
+				a{
+					color:$primary;
+				}
+			}
+			&:last-child{
+				a:after{
+					display:none;
+				}
+			}
+		}
+	}
+	span{
+		color:$white;
+		font-size:  1.143rem;	
+		line-height: 24px;
+	}
+	.footer-logo{
+		a{
+			display:inline-block;
+			padding:0.5rem 0;
+		}
+	}
+	.border-hr-btm{
+		border-color:$white;
+	}
+	.copyright{
+		p{
+			color: $white;	
+			margin-bottom:0;
+		}
+	}
+	
+	.sec-content{
+		p{
+			color:$white;
+		}
+	}
+	.footer-menu{
+      li{
+         display:inline-block;
+         padding:0 0.675rem;
+         a{
+            color:$white;
+            font-weight: bold;   
+            letter-spacing: 2px;
+            text-transform:capitalize;
+            &:hover{
+               opacity:0.7;
+
+            }
+         }
+         &:first-child{
+            padding-left:0;
+         }
+         &:last-child{
+            padding-right:0;
+         }
+      }
+   }
+}
+
+
+
+

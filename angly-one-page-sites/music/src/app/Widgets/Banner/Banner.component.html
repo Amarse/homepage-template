@@ -1,0 +1,18 @@
+<div class="banner-wrap section-gap-lg bg-white bg-img-style" [ngStyle]="{'background-image': 'url(' + bannerBgImage + ')'}" id="home-section">
+	<div class="container">
+		<div class="tour-item-list">
+			<div class="row">
+				<ng-container *ngFor="let content of bannerContent; let i = index">
+					<div class="col-12 d-flex align-items-center justify-content-center"> 
+						<!-- <div class="banner-slide p-cursor"  [ngClass] = "{'brdr-primary': i == 0 }" id="banner_{{i}}" (click)="changeBannerBg(content.bg_image, i)"> -->
+                  <div class="banner-slide p-cursor" id="banner_{{i}}" (click)="changeBannerBg(content.bg_image, i)">
+							<div class="location-info mb-3 mb-md-0">
+								<span class="mb-0 title"><a href="javascript:void(0)">{{content.title}}</a></span>
+							</div>
+						</div>
+					</div>
+				</ng-container>
+			</div>
+		</div>
+	</div>
+</div>

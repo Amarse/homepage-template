@@ -1,0 +1,138 @@
+[
+	{
+		"image" : "assets/images/team-1.jpg",
+		"type" : "dream",
+		"musicList" : [
+			{
+				"name" : "Loream in the air",
+                "totalTime" : 3.45
+            },
+            {
+            	"name" : "Without Me",
+                "totalTime" : 3.45
+            },
+            {
+            	"name" : "Please Me",
+            	"totalTime" : 3.45
+            },
+            {
+            	"name" : "Going Bad",
+            	"totalTime" : 3.45
+            },
+            {
+               "name" : "Baby",
+               "totalTime" : 3.45
+            },
+            {
+               "name" : "Tonight",
+               "totalTime" : 3.45
+            },
+            {
+               "name" : "Let Me Love you",
+               "totalTime" : 3.25
+            }	
+		]
+	},
+	{
+		"image" : "assets/images/team-2.jpg",
+		"type" : "clean_nation",
+		"musicList" : [
+			{
+				"name" : "Thank you",
+				"totalTime" : 3.45
+            },
+            {
+            	"name" : "Beautiful Crazy",
+            	"totalTime" : 3.25
+            },
+            {
+            	"name" : "Blue Eyes",
+            	"totalTime" : 3.45
+            },
+            {
+            	"name" : "Going Bad",
+            	"totalTime" : 3.55
+            },
+            {
+               "name" : "Wye Not Me",
+               "totalTime" : 4.04
+            },
+            {
+               "name" : "Rap God",
+               "totalTime" : 3.45
+            },
+            {
+               "name" : "I Need Ya",
+               "totalTime" : 4.55
+            }  	
+		]
+	},
+	{
+		"image" : "assets/images/team-3.jpg",
+		"type" : "broken_path",
+		"musicList" : [
+			{
+				"name" : "Girls like you",
+				"totalTime" : 3.05
+            },
+            {
+            	"name" : "Beautiful Crazy",
+            	"totalTime" : 3.15
+            },
+            {
+            	"name" : "Going Bad",
+            	"totalTime" : 3.45
+            },
+            {
+            	"name" : "A lot",
+            	"totalTime" : 4.45
+            },
+            {
+               "name" : "Rockstar",
+               "totalTime" : 3.35
+            },
+            {
+               "name" : "Turn Down For What",
+               "totalTime" : 4.15
+            },
+            {
+               "name" : "Ring My Bell",
+               "totalTime" : 3.45
+            }  	
+		]
+	},
+	{
+		"image" : "assets/images/team-4.jpg",
+		"type" : "love",
+		"musicList" : [
+			{
+				"name" : "High Hopes",
+				"totalTime" : 3.45
+            },
+            {
+            	"name" : "She don't Know",
+            	"totalTime" : 3.45
+            },
+            {
+            	"name" : "Crazy Dance",
+            	"totalTime" : 3.45
+            },
+            {
+            	"name" : "Close to be",
+            	"totalTime" : 3.45
+            },
+            {
+               "name" : "Closure",
+               "totalTime" : 4.05
+            },
+            {
+               "name" : "See You Again",
+               "totalTime" : 4.05
+            },
+            {
+               "name" : "Lonely",
+               "totalTime" : 4.05
+            }	
+		]
+	}
+]

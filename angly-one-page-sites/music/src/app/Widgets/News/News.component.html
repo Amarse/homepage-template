@@ -1,0 +1,43 @@
+<div class="news-tab-wrap section-gap-lg" id="news-section">
+   <div class="container">
+      <app-common-title title="News"></app-common-title>
+      <div class="tab-list">
+         <div class="row">
+            <div class="col-sm-12 col-sm-3 col-lg-3">
+               <ul class="nav nav-tabs d-lg-block border-0 mb-lg-0 mb-4 d-flex justify-content-center" id="myTab" role="tablist">
+                  <li class="nav-item mr-lg-0 mr-2"  *ngFor="let newsInfo of newsContent">
+                     <a class="nav-link mb-2" [ngClass] = "{'active': newsInfo.status}" id="{{newsInfo.id}}-tab" data-toggle="tab" href="#{{newsInfo.id}}" role="tab" attr.aria-controls="{{newsInfo.id}}" attr.aria-selected="{{newsInfo.status}}">{{newsInfo.link}}</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-12 col-sm-9 col-lg-9">
+               <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane" [ngClass] = "{'active': newsInfo.status}" id="{{newsInfo.id}}" role="tabpanel" 
+                  attr.aria-labelledby = '{{newsInfo.id}}"-tab"' *ngFor="let newsInfo of newsContent">
+                     <div class="row">
+                        <div class="col-sm-12 col-md-6 mb-4 mb-md-0 news-tab-content" *ngFor= "let data of newsInfo.content">
+                           <div class="post-item">
+                              <div class="thumb-wrap rounded-circle mb-3">
+                                 <div class="featured-thumb">
+                                    <a href="javascript:void(0);"><img  src="{{data.image}}" alt="Blog" width="700" height="700"></a>
+                                 </div>
+                              </div>
+                              <div class="post-content">
+                                 <div class="sec-title mb-2">
+                                    <h5>{{data.title}}</h5>
+                                 </div>
+                                 <div class="meta-info">
+                                    <span class="d-block mb-2"><i class="far fa-clock mr-2"></i>{{data.time}}</span>
+                                    <span class="d-block"><i class="fas fa-map-marker-alt mr-2"></i>{{data.address}}</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

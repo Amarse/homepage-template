@@ -1,0 +1,25 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+	<!--|testimonial grid-post section start|-->
+	<div class="testi-sec  bg-img-style px-3 pb-0" ngxSlickItem *ngFor="let slide of testimonialSliderData">
+		<!--|testimonial image section start|-->
+      <div class="overlay-content dark-overlay d-flex align-item-center">
+         <div class="overlay-holder">
+      		<div class="testi-img border-radius">
+      			<img [src]="slide.img" alt="test2-70x70" height="100" width="100">
+      		</div>
+      		<!--|testimonial content section start|-->
+      		<div class="testi-content text-center">
+      			<div class="sec-title mb-2">
+      				<h5 class="mb-0">{{slide.name}}</h5>
+      			</div>
+      			<!--|sec-title|-->
+      			<div class="sec-content mb-4">
+      				<p class="mb-0">{{slide.comment}}</p>
+      			</div>
+      		</div>
+         </div>   
+      </div>   
+	</div>
+</ngx-slick-carousel>
+
+

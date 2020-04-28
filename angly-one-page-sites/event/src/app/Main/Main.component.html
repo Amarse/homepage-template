@@ -1,0 +1,29 @@
+<div id="wrapper">
+	<div (scroll)="onScrollEvent($event)">
+		<app-header></app-header>
+		<app-home></app-home>
+		<div id="main">
+			<!--|content start|-->
+			<div class="content">
+				<app-services></app-services>
+            <app-about></app-about>
+            <app-team></app-team>
+				<app-counter></app-counter>
+            <app-project></app-project>
+				<app-pricing-plans></app-pricing-plans>
+				<app-blogs></app-blogs>
+				<app-testimonial></app-testimonial>
+				<app-contact-detail></app-contact-detail>
+            <app-location></app-location>
+			</div>
+		</div>		
+		<app-footer></app-footer>
+	</div>	
+</div>
+
+<app-request-quote></app-request-quote>
+
+<!-- back top -->
+<div id="back-top">
+   <a href="javascript:" id="return-to-top"><span class="screen-reader-text"></span><i class="fas fa-arrow-up"></i></a>
+</div>

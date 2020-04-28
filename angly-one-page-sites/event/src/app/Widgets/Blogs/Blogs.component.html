@@ -1,0 +1,21 @@
+<div id="section-5" class="blog-grid-wrap section-gap-blog secondary-bg">
+	<div class="container">
+		<app-section-title title="News" sectionTitleClass="text-center"></app-section-title>
+		<div class="row">
+			<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+				<div class="post-grid-wrap">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5 mb-lg-0" *ngFor="let value of blogData">
+							<app-blog-grid [blogDatavalue]="value"></app-blog-grid>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12">
+				<app-blog-post-list></app-blog-post-list>
+			</div>
+		</div>	
+	</div>
+</div>
+					
+ 

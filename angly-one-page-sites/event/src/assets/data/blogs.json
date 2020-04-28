@@ -1,0 +1,16 @@
+[
+	{
+		"image":"assets/images/blog1.jpg",
+		"title" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"discription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		"date" :"20 Jan 2017",
+		"comments":"25 Comments"
+	},
+	{
+		"image":"assets/images/blog2.jpg",
+		"title" :"Nullam ut tellus et nibh dapibus hendrerit in non nisl.",
+		"discription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		"date" :"20 Jan 2017",
+		"comments":"25 Comments"
+	}
+]

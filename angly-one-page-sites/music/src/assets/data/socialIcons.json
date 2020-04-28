@@ -1,0 +1,18 @@
+[
+	{
+		"icon_name" : "facebook-f",
+		"class_name" : "facebook"
+	},
+	{
+		"icon_name" : "twitter",
+		"class_name" : "twitter"
+	},
+	{
+		"icon_name" : "instagram",
+		"class_name" : "insta"
+	},
+	{
+		"icon_name" : "google-plus-g",
+		"class_name" : "google"
+	}
+]

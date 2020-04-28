@@ -1,0 +1,15 @@
+<div class="location-wrap mb-n2">
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+			<div class="location-map">
+            <agm-map [latitude]="lat" [longitude]="lng" [fullscreenControl]='true' 
+			[mapTypeControl]='true'>
+				<agm-marker [latitude]="lat" [longitude]="lng">
+				</agm-marker>
+			</agm-map>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- location-wrap -->
+

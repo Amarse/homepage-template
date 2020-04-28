@@ -1,0 +1,30 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+	<div class="post-item primary-overlay mx-3" ngxSlickItem  *ngFor="let values of teamContent">
+		<div class="overlay-wrap rounded">
+			<div class="thumb-wrap">
+            <div class="bg-img-style" [ngStyle]="{'background-image': 'url(' + values.image + ')'}"></div>
+			</div>
+			<div class="overlay-content pb-4 d-flex justify-content-center align-items-end">
+				<div class="overlay-holder">
+				<!--|-social-icons|-->
+				<app-social-icon [socialIcon]="icons"></app-social-icon>
+				</div>
+			</div><!--|-overlay-content|-->
+		</div><!--|-overlay-wrap|-->
+		<div class="post-content pt-3 pl-sm-5">
+			<div class="sec-title mb-4">
+				<h4><a href="javascript:void(0);">{{values.name}}</a></h4>
+				<span class="d-inline-block">{{values.content}} </span>
+			</div><!--|-sec-title|-->
+			<div class="sec-content mb-4">
+				<p>{{values.discription}}</p>
+			</div>
+			<div class="member-speciality">
+				<p class="mb-0"><span class="font-weight-bold">{{values.speciality}}</span>{{values.business}}</p>
+				<p class="mb-0"><span class="font-weight-bold">{{values.degrees}}</span>{{values.sjd}}</p>
+			</div>
+		</div>
+      <!-- post-content -->
+	</div>
+   <!-- post-item -->
+</ngx-slick-carousel>	

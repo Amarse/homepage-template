@@ -1,0 +1,71 @@
+[
+	{
+		"image" : "assets/images/team-1.jpg",
+		"name" : "Ellen Joseph",
+		"designation" : "Creative Developer",
+		"socialLinks" : [
+			{
+				"icon_name" : "facebook-f",
+				"class_name" : "facebook"
+			},
+			{
+				"icon_name" : "twitter",
+				"class_name" : "twitter"
+			},
+			{
+				"icon_name" : "instagram",
+				"class_name" : "insta"
+			},
+			{
+				"icon_name" : "google-plus-g",
+				"class_name" : "google"
+			}
+		]
+	},
+	{
+		"image" : "assets/images/team-2.jpg",
+		"name" : "Sallie Jensen",
+		"designation" : "Creative Developer",
+		"socialLinks" : [
+			{
+				"icon_name" : "facebook-f",
+				"class_name" : "facebook"
+			},
+			{
+				"icon_name" : "twitter",
+				"class_name" : "twitter"
+			},
+			{
+				"icon_name" : "instagram",
+				"class_name" : "insta"
+			},
+			{
+				"icon_name" : "google-plus-g",
+				"class_name" : "google"
+			}
+		]
+	},
+	{
+		"image" : "assets/images/team-3.jpg",
+		"name" : "Cinthia Rose",
+		"designation" : "Creative Developer",
+		"socialLinks" : [
+			{
+				"icon_name" : "facebook-f",
+				"class_name" : "facebook"
+			},
+			{
+				"icon_name" : "twitter",
+				"class_name" : "twitter"
+			},
+			{
+				"icon_name" : "instagram",
+				"class_name" : "insta"
+			},
+			{
+				"icon_name" : "google-plus-g",
+				"class_name" : "google"
+			}
+		]
+	}
+]

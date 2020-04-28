@@ -1,0 +1,39 @@
+.section-gap{
+   padding-top:6rem;
+   padding-bottom:6rem;
+}
+.section-gap-lg{
+   padding-top:9.286rem;
+   padding-bottom:9.286rem;
+}   
+
+.section-gap-port{
+   padding-top:8.3rem;
+   padding-bottom:6.125rem;
+}
+
+.section-gap-blog{
+   padding-top:8.2rem;
+   padding-bottom:8.9375rem;
+}
+.section-gap-team{
+   padding-top:8.5rem;
+   padding-bottom:9.25rem;
+}
+
+@media(max-width:991px){
+   .services-wrap.section-gap-lg,
+   .about-us.section-gap-lg{
+      padding-top:4.2rem;
+   }   
+   .pricing-plan-grid.section-gap-lg{
+      padding-top:4.5rem;
+   }
+}
+@media(max-width:768px){
+   
+}
+@media(max-width:599px){
+    
+}
+

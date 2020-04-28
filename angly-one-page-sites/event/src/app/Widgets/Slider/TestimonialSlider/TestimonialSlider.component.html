@@ -1,0 +1,16 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">	
+	<div class="testi-sec mr-xl-5" ngxSlickItem *ngFor="let data of testimonialContent">
+		<div class="sec-content mb-sm-5 mb-4">
+			<p>{{data.discription}}</p>
+		</div>
+		<div class="testi-img rounded-circle mb-3">
+			<img src="{{data.image}}" alt="test1-70x70" height="70" width="70">
+		</div>
+      <!--testi-img-->
+		<div class="sec-title">
+			<h4 class="mb-1 title">{{data.name}}</h4>
+			<span class="dark-color">{{data.management}}</span>
+		</div>
+	</div>
+   <!-- testi-sec -->
+</ngx-slick-carousel>

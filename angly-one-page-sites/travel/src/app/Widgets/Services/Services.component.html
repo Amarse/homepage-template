@@ -1,0 +1,19 @@
+<div id="service-section" class="services-wrap section-gap-about">
+   <!--|container start|-->
+   <div class="container">
+      <!--|section title start|-->
+      <app-common-title Title="Tour & Travel" Subtitle="Services"></app-common-title>
+      <!--|3d-rotate y-axis sec start|-->
+      <div class="services-3d-rotate-wrap">
+         <!--|row start|-->
+         <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-5" *ngFor="let data of ShowServiceData">
+               <app-service-grid [serviceContent]="data"></app-service-grid>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+               
+               
+   

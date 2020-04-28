@@ -1,0 +1,52 @@
+/*---------------------------------------------------------------
+4.0 Backgrounds
+----------------------------------------------------------------- */
+/*------------ classes for background-color and color -------------*/
+.primary-bg{
+	background-color:$primary;
+}
+.secondary-bg{
+	background-color:$secondary;
+}
+.base-bg{
+	background-color:$white;
+}
+.dark-bg{
+   background-color:$dark;
+}
+.gradient-faded-bg{
+	background: linear-gradient(270deg, rgba(255,255,255,0) 0%,$primary 67%);
+}
+.primary-color{
+	color:$primary;
+}
+.gray-color{
+   color:$light;  
+}
+.secondary-color{
+	color:$secondary;
+}
+.dark-color{
+	color:$dark;
+}
+
+.base-color{
+	color:$white;
+}
+/*----------------|banner-image|------------*/
+
+.slide8{
+   background-image: url('../../assets/images/header.jpg');
+}
+
+/*------|bg-style classes|------*/
+.bg-img-style{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;	
+}
+.bg-img-left-style{
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: inherit;	
+}

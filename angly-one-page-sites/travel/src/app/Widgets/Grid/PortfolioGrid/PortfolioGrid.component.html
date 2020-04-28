@@ -1,0 +1,23 @@
+<div class="post-item primary-overlay">
+<!--|overlay sec start|-->
+	<div class="overlay-wrap">
+	   <div class="thumb-wrap">
+	      <div class="featured-thumb">
+            <div class="bg-img-style" [ngStyle]="{'background-image': 'url(' + portfolioGrid.image + ')'}"></div>
+	      </div>
+	   </div>
+	   <!--|overlay content start|-->
+	   <div class="overlay-content d-flex justify-content-center align-items-center p-4">
+	      <div class="overlay-holder">
+	         <div class="sec-title mb-3">
+	            <h4 class="mb-0" (click)="openPortfolioDialog(portfolioGrid)"><a href="javascript:void(0);">{{portfolioGrid.title}}</a></h4>
+	         </div>
+	         <div class="mb-3 text-white">{{portfolioGrid.place}}</div>
+            <div class="view-btn d-inline-block">
+               <a class="primary-btn sm-btn d-inline-block" href="javascript:void(0);" (click)="openPortfolioDialog(portfolioGrid)">View Details</a>
+            </div>
+	      </div>
+	      <!--|overlay-holder|-->
+	   </div>
+	</div>
+</div>
