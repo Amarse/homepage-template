@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
@@ -33,6 +34,8 @@ import { SupportComponent } from './support/support.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
 
+
+
 @NgModule({
    declarations: [
       AppComponent,
@@ -49,6 +52,7 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       SupportComponent,
       Footer2Component,
       sidebarWidgetsComponent,
+     
    ],
    imports: [
       BrowserModule,

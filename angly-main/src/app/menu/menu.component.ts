@@ -2,6 +2,7 @@ import { Component, OnInit, HostListener, Inject, } from '@angular/core';
 import { MenuItems } from '../core/menu/menu-items/menu-items';
 import { Router } from '@angular/router';
 import { ClickOutside } from '../core/directive/click-outside.directive';
+
 declare var $: any;
 
 @Component({

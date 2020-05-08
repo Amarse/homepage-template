@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { MatButtonModule } from '@angular/material/button';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from "@angular/forms"
@@ -14,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DataService } from './Services/Data.service';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 
+
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -23,6 +25,7 @@ import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 		LogoComponent,
 		MainComponent,
 		StickyheaderComponent,
+		MatButtonModule
 	],
 	imports: [
 		BrowserModule,

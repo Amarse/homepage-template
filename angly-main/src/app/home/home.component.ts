@@ -83,7 +83,7 @@ export class HomeComponent implements OnInit {
    */
    getContent(content)
    {
-      this.videoContent    = content.video_content;
+     // this.videoContent    = content.video_content;
       this.mobileFeatured  = content.mobile_featured;
    }
 

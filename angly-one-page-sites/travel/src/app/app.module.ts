@@ -17,6 +17,7 @@ import { WidgetsModule } from  './Widgets/widgets.module';
 import { ResponsiveHeaderComponent } from './Core/Header/ResponsiveHeader/ResponsiveHeader.component';
 import { MainComponent } from './Main/Main.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CompanyComponent } from './company/company.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AppRoutingModule } from './app-routing.module';
 		StickyheaderComponent,
 		ResponsiveHeaderComponent,
 		FooterComponent,
-		MainComponent
+		MainComponent,
+		CompanyComponent
   ],
   	imports: [
 		BrowserModule,
