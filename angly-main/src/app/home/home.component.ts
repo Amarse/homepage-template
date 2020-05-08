@@ -40,14 +40,14 @@ export class HomeComponent implements OnInit {
                   err      => console.log(err),
                   ()       => this.posts
                );
-
+/*
       this.service.getProjectGallary().
          subscribe(response => {this.projectGallary = response},
                    err      => console.log(err),
                    ()       => this.projectGallary
                );
 
-
+*/
       this.service.getTeam().
          subscribe(response => {this.team = response},
                    err      => console.log(err),
