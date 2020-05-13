@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const AppRoutes: Routes = [{
    path: '',
@@ -61,7 +62,9 @@ export const AppRoutes: Routes = [{
             loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule)
          },{ 
 				path: 'about/:keyword',component: AboutComponent 
-			}
+			},{
+            path: 'admin', component: AdminComponent
+         }
       ]
 }];
 

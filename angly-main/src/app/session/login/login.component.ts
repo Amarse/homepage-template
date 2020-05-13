@@ -1,4 +1,7 @@
+import { Router} from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'angly-login',
@@ -7,9 +10,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+    url;
+
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
   }
+
+  click(){
+    console.log("login");
+
+    setTimeout(() =>{
+      this.router.navigate([this.url || 'admin']);
+    },1000); 
+
+  }
+
+
 
 }
