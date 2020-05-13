@@ -13,7 +13,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { ChkService } from './service/chk.service';
 
 /* material */
-import { MatDatePickerModule }from '@agnular/material/datepicker';
+import { MatDatepickerModule }from '@angular/material/datepicker';
+import { MatFormFieldModule }from '@angular/material/form-field';
+import { MatInputModule }from '@angular/material/input';
+import {MatNativeDateModule} from '@angular/material';
+import { MatMomentDateModule } from "@angular/material-moment-adapter";
 
 
 
@@ -60,7 +64,11 @@ import { AdminComponent } from './admin/admin.component';
    imports: [
       BrowserModule,
       BrowserAnimationsModule,
-      MatDatePickerModule,
+      MatDatepickerModule,
+      MatFormFieldModule,
+      MatInputModule,
+      MatNativeDateModule, 
+      MatMomentDateModule,
       FormsModule,
       ReactiveFormsModule,
       HttpClientModule,
