@@ -32,6 +32,7 @@ import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
    declarations: [
@@ -49,6 +50,7 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       SupportComponent,
       Footer2Component,
       sidebarWidgetsComponent,
+      AdminComponent,
    ],
    imports: [
       BrowserModule,
