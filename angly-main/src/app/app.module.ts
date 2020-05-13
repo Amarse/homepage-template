@@ -12,6 +12,11 @@ import { AppRoutingModule } from './app-routing.module';
 /* Service */
 import { ChkService } from './service/chk.service';
 
+/* material */
+import { MatDatePickerModule }from '@agnular/material/datepicker';
+
+
+
 /* components */
 import { AppComponent } from './app.component';
 import { MainComponent }   from './main/main.component';
@@ -55,6 +60,7 @@ import { AdminComponent } from './admin/admin.component';
    imports: [
       BrowserModule,
       BrowserAnimationsModule,
+      MatDatePickerModule,
       FormsModule,
       ReactiveFormsModule,
       HttpClientModule,
@@ -66,6 +72,7 @@ import { AdminComponent } from './admin/admin.component';
       AgmCoreModule.forRoot({
          apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
       })
+
    ],
    providers: [
       MenuItems,

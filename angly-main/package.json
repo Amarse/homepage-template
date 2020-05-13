@@ -1,3 +1,4 @@
+
 {
   "name": "angly",
   "version": "3.1.0",
@@ -18,6 +19,7 @@
     "@angular/compiler": "^8.2.14",
     "@angular/core": "^8.2.14",
     "@angular/forms": "^8.2.14",
+    "@angular/material": "^9.2.2",
     "@angular/http": "^7.2.16",
     "@angular/platform-browser": "^8.2.14",
     "@angular/platform-browser-dynamic": "^8.2.14",
