@@ -22,13 +22,18 @@
     font-family: serif;
 }
 
+.admin{
+    font-size: larger;
+    margin-top: 36px;
+}
+
 .component{
     margin-top: 28px;
     margin-bottom: 50px;
     margin-left: 42px;
     width: 500px;
     height: 500px;
-    background-color: gainsboro;
+    background-color: whitesmoke;
     font-family: serif;
     font-size: xx-small;
 }
@@ -57,6 +62,7 @@
     height: 421px;
     background-color: whitesmoke;
     margin: 20px;
+
 }
 
 .padding2{
@@ -64,4 +70,13 @@
     width: 400px;
     height:500px;
     background-color: crimson;
+}
+
+.example-container{
+
+    width: auto;
+    height: auto;
+    text-align: right;
+
+
 }

@@ -18,7 +18,7 @@ import { MatFormFieldModule }from '@angular/material/form-field';
 import { MatInputModule }from '@angular/material/input';
 import {MatNativeDateModule} from '@angular/material';
 import { MatMomentDateModule } from "@angular/material-moment-adapter";
-
+import { MatTableModule} from "@angular/material/table";
 
 
 /* components */
@@ -69,6 +69,7 @@ import { AdminComponent } from './admin/admin.component';
       MatInputModule,
       MatNativeDateModule, 
       MatMomentDateModule,
+      MatTableModule,
       FormsModule,
       ReactiveFormsModule,
       HttpClientModule,
