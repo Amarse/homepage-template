@@ -1,10 +1,46 @@
-<h2>Admin Page</h2>
+<div class=main>
+  <h1>Admin Page</h1>
+  <div class=all>
+    <h1>Warever</h1>
+    <!-- <div class=padding2>
+        <h2>input</h2>
+        <!-- <div class="example-container">
+          <mat-form-field appearance="fill">
+            <mat-label>Input</mat-label>
+            <input matInput>
+          </mat-form-field>
+          <br>
+          <mat-form-field appearance="fill">
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option value="option">Option</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <br>
+          <mat-form-field appearance="fill">
+            <mat-label>Textarea</mat-label>
+            <textarea matInput></textarea>
+          </mat-form-field> 
+        </div> -->
+    <div class=component>
+      <h2>scheduler</h2>
 
-<mat-form-field>
-  <mat-label>Choose a date</mat-label>
-  <input matInput [matDatepicker]="picker">
-  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-  <mat-datepicker #picker></mat-datepicker>
-</mat-form-field>
 
-<p>admin works!</p>
+
+      <!--<div class=border > -->
+      <div class=padding>
+        <mat-form-field>
+          <mat-label></mat-label>
+          <input matInput class="matinput" [matDatepicker]="picker">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
