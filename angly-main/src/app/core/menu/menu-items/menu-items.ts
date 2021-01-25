@@ -64,11 +64,11 @@ const HEADERMENUITEMS = [
       type:"sub",
       icon: 'fa fa-caret-down',
       children: [
-         { state: 'blog-listing-sidebar', name:'blog column ', type:"link"},
-         { state: 'blog-column2', name: 'Blog Column2', type:"link"},
+         //{ state: 'blog-listing-sidebar', name:'blog column ', type:"link"},
+        // { state: 'blog-column2', name: 'Blog Column2', type:"link"},
          { state: 'blog-column3', name: 'Blog Column3', type:"link"},
-         { state: 'blog-masonry2', name: 'Blog Masonry2', type:"link"},
-         { state: 'blog-masonry3', name: 'Blog Masonry3', type:"link"},
+        // { state: 'blog-masonry2', name: 'Blog Masonry2', type:"link"},
+         //{ state: 'blog-masonry3', name: 'Blog Masonry3', type:"link"},
         // { state: 'blog-sidebar', name: 'Blog Sidebar', type:"link"},
        //  { state: 'blog-no-sidebar', name: 'Blog No Sidebar', type:"link"},
         // { state: 'blog-detail', name: 'Blog Detail', type:"link"}

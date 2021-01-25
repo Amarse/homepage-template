@@ -23,8 +23,10 @@
 }
 
 .admin{
-    font-size: larger;
+    font-size: unset;
     margin-top: 36px;
+    width: 1500px;
+    height: 1900px;
 }
 
 .component{
@@ -63,7 +65,8 @@
     background-color: aliceblue;
     margin: 20px;
     margin-top: 180px;
-    
+    float: left;
+    margin-left: 200px;
 
 }
 
@@ -80,4 +83,16 @@
     height: auto;
     text-align: center;
     PADDING: 46PX;
+}
+
+.padding_2{
+    float : right;
+}
+
+.mat-elevation-z8{
+
+    width: 752px;
+    height: 500px;
+    margin-top: 180px;
+
 }
